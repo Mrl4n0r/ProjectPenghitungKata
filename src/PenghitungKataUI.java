@@ -25,6 +25,9 @@ public class PenghitungKataUI extends javax.swing.JFrame {
      */
     public PenghitungKataUI() {
         initComponents();
+        
+        setLocationRelativeTo(null);
+        
         // Ini untuk listener real-time pada jTextAreaInput 
     jTextAreaInput.getDocument().addDocumentListener(new DocumentListener() {
         public void insertUpdate(DocumentEvent e) {
